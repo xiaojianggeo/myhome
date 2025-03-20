@@ -1,6 +1,6 @@
 [![XX](https://img.shields.io/badge/XX-github-blue?logo=github)](https://github.com/XX)
 
-I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
+我喜欢弹琴唱歌，喜欢打羽毛球乒乓球，喜欢游泳
 
 #### Email  
 <code>jhj20060629@163.com</code>
