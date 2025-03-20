@@ -1,0 +1,38 @@
+<html>
+<body>
+        <form onsubmit="return handleSubmit(event)">
+            <div class="form-group">
+                <label>姓名：</label>
+                <input type="text" required>
+            </div>
+
+            <div class="form-group">
+                <label>感兴趣的职位：</label><br>
+                <input type="radio" name="job" value="design"> Web设计人员<br>
+                <input type="radio" name="job" value="manage"> Web管理人员<br>
+                <input type="radio" name="job" value="dev"> Web开发人员
+            </div>
+
+            <div class="form-group">
+                <label>其他要求：</label>
+                <textarea rows="3" placeholder="包括薪水待遇、工作地点等"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label><input type="checkbox" checked> 发送确认消息</label>
+            </div>
+
+            <div class="form-group">
+                <label>经验：</label>
+                <select>
+                    <option>无经验</option>
+                    <option>1-3年</option>
+                    <option>3年以上</option>
+                </select>
+            </div>
+
+            <button type="submit">确定</button>
+            <button type="reset">重置</button>
+        </form>
+        <body />
+        <html />
