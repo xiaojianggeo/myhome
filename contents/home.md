@@ -7,7 +7,7 @@ I'm currently pursuing a Master's degree in XX at the Department of XX, XX Unive
 <code>1514429852@qq.com</code>
 
 #### Education  
-**XX University**, Master of XX (XX – XX)  
+**HUST**, Master of XX (XX – XX)  
 • GPA: XX/XX  
 
 **XX University**, Exchange student <br>  
