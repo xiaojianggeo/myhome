@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            transition: background 0.5s;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #timeDisplay {
+            font-size: 24px;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h2>JavaScript功能演示</h2>
+    
+    <button onclick="showDialog()">显示对话框</button>
+    <button onclick="changeColor()">改变背景色</button>
+    <button onclick="showTime()">显示时间</button>
+    
+    <div id="timeDisplay"></div>
 
+    <script>
+        function showDialog() {
+            alert("欢迎来到JavaScript演示页面！");
+        }
+
+        function changeColor() {
+            const colors = ["#FFB6C1", "#87CEEB", "#98FB98"];
+            const randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+
+        function showTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString();
+            document.getElementById("timeDisplay").innerHTML = 
+                "当前时间：" + timeString;
+        }
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>This is a Demo</title>
+</head>
+<body>
+<div id="container">
+<div class="wrapper">
+<h2 class="title">Hello html</h2>
+<p class="text">this is a paragraph.</p>
+</div>
+</div>
+</body>
+</html>
